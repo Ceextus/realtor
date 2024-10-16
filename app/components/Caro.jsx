@@ -6,6 +6,7 @@ import 'swiper/css/pagination';
 
 
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
+import Link from 'next/link';
 
 export default function Carousel() {
   return (
@@ -28,7 +29,9 @@ export default function Carousel() {
           <div className="flex flex-col items-center justify-center h-full bg-[url(/bg3.jpg)] bg-cover bg-center text-white text-2xl font-bold">
            <h1 className='text-white text-5xl max-md:text-3xl font-bold'>The Best Way To Find Your Perfect Home</h1>
            <p className='font-semibold text-2xl max-md:text-sm w-[90%]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores accusamus, inventore tenetur, reprehenderit suscipit at, nam illo culpa harum facilis optio quo molestiae.</p>
+           <Link href={'/properties'}> 
            <button className='bg-red-500 text-white font-bold py-1 px-3 rounded-md shadow-md flex justify-center my-4'>Buy Now</button> 
+           </Link>
           
           </div>
         </SwiperSlide>
@@ -36,28 +39,36 @@ export default function Carousel() {
           <div className="flex flex-col items-center justify-center h-full bg-[url(/bg4.jpg)] bg-cover bg-center text-white text-2xl font-bold">
           <h1 className='text-white text-5xl max-md:text-3xl font-bold'>The Best Way To Find Your Perfect Home</h1>
            <p className='font-semibold text-2xl max-md:text-sm w-[90%]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores accusamus, inventore tenetur, reprehenderit suscipit at, nam illo culpa harum facilis optio quo molestiae.</p>
+           <Link href={'/properties'}> 
            <button className='bg-red-500 text-white font-bold py-1 px-3 rounded-md shadow-md flex justify-center my-4'>Buy Now</button> 
+           </Link>
           </div>
         </SwiperSlide>
         <SwiperSlide className=''>
           <div className="flex flex-col items-center justify-center h-full bg-[url(/bg1.jpg)] bg-cover bg-center text-white text-2xl font-bold">
           <h1 className='text-white text-5xl max-md:text-3xl font-bold'>The Best Way To Find Your Perfect Home</h1>
            <p className='font-semibold text-2xl max-md:text-sm w-[90%]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores accusamus, inventore tenetur, reprehenderit suscipit at, nam illo culpa harum facilis optio quo molestiae.</p>
+           <Link href={'/properties'}>
            <button className='bg-red-500 text-white font-bold py-1 px-3 rounded-md shadow-md flex justify-center my-4'>Buy Now</button> 
+           </Link>
           </div>
         </SwiperSlide>
         <SwiperSlide className=''>
           <div className="flex flex-col items-center justify-center h-full bg-[url(/bg5.jpg)] bg-cover bg-center text-white text-2xl font-bold">
           <h1 className='text-white text-5xl max-md:text-3xl font-bold'>The Best Way To Find Your Perfect Home</h1>
            <p className='font-semibold text-2xl max-md:text-sm w-[90%]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores accusamus, inventore tenetur, reprehenderit suscipit at, nam illo culpa harum facilis optio quo molestiae.</p>
+           <Link href={'/properties'}>
            <button className='bg-red-500 text-white font-bold py-1 px-3 rounded-md shadow-md flex justify-center my-4'>Buy Now</button> 
+           </Link>
           </div>
         </SwiperSlide>
         <SwiperSlide className=''>
           <div className="flex flex-col items-end justify-center h-full bg-[url(/bg2.jpg)] bg-cover bg-center text-black text-2xl font-bold">
           <h1 className='text-black text-5xl max-md:text-3xl font-bold'>The Best Way To Find Your Perfect Home</h1>
            <p className='font-semibold text-2xl max-md:text-sm w-[90%]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores accusamus, inventore tenetur, reprehenderit suscipit at, nam illo culpa harum facilis optio quo molestiae.</p>
+           <Link href={'/properties'}>
            <button className='bg-red-500 text-white font-bold py-1 px-3 rounded-md shadow-md flex justify-center my-4'>Buy Now</button> 
+           </Link>
           </div>
         </SwiperSlide>
       </Swiper>

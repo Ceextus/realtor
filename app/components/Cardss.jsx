@@ -1,12 +1,14 @@
 import React from "react";
 import { FaKey } from "react-icons/fa"; 
 import Image from "next/image"; 
+import Link from "next/link";
 
 const RealEstateCards = () => {
   return (
     <div className="flex justify-center items-center min-h-screen bg-gray-100">
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         {/* Card 1 */}
+        <Link href={'/properties'}>
         <div className="bg-white rounded-lg shadow-md p-4">
           <div className="flex justify-center">
             <div className="bg-red-500 rounded-full p-4 -mt-8">
@@ -29,8 +31,10 @@ const RealEstateCards = () => {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ipsa obcaecati ab placeat aliquam.
           </p>
         </div>
+        </Link>
 
         {/* Card 2 */}
+        <Link href={'/properties'}>
         <div className="bg-white rounded-lg shadow-md p-4">
           <div className="flex justify-center">
             <div className="bg-red-500 rounded-full p-4 -mt-8">
@@ -53,8 +57,11 @@ const RealEstateCards = () => {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ipsa obcaecati ab placeat aliquam.
           </p>
         </div>
+        </Link>
+      
 
         {/* Card 3 */}
+        <Link href={'/properties'}>
         <div className="bg-white rounded-lg shadow-md p-4">
           <div className="flex justify-center">
             <div className="bg-red-500 rounded-full p-4 -mt-8">
@@ -77,6 +84,7 @@ const RealEstateCards = () => {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ipsa obcaecati ab placeat aliquam.
           </p>
         </div>
+        </Link>
       </div>
     </div>
   );

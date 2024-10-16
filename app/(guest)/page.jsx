@@ -32,7 +32,7 @@ const Page = () => {
       <div 
         data-aos="fade-up" 
         data-aos-duration="1000"
-        className="mt-8"
+        className=""
       >
         <Cardss />
       </div>
@@ -40,23 +40,23 @@ const Page = () => {
       <div 
         data-aos="fade-up" 
         data-aos-duration="1000"
-        className="mt-8"
+        className=""
       >
         <Testimonial />
       </div>
       
       <div 
-        data-aos="fade-up" 
+        data-aos="fade-lef" 
         data-aos-duration="1000"
-        className="mt-8"
+        className=""
       >
         <Servs />
       </div>
       
       <div 
-        data-aos="fade-up" 
+        data-aos="fade-left" 
         data-aos-duration="1000"
-        className="mt-8"
+        className=""
       >
         <Review />
       </div>
